@@ -1,9 +1,9 @@
 // =Palette
 $palette: map-extend($palette, (
-    transparent: transparent,
-    black: #030612,
-    white: #ffffff,
-    primary: (
+    "transparent": transparent,
+    "dark": #030612,
+    "light": #fff,
+    "primary": (
         darker: #143FA9,
         dark: #164FDA,
         base: #2F6BFC,
@@ -11,7 +11,7 @@ $palette: map-extend($palette, (
         lighter: #DDE7FD,
         lightest: #F1F5FE
     ),
-    neutral: (
+    "neutral": (
         darker: #2A2D3C,
         dark: #3F424A,
         base: #7C7C83,
@@ -20,7 +20,7 @@ $palette: map-extend($palette, (
         lighter: #EDEDEE,
         lightest: #F5F5F6
     ),
-    negative: (
+    "negative": (
         darker: #A02146,
         dark: #D02956,
         base: #F53063,
@@ -28,7 +28,7 @@ $palette: map-extend($palette, (
         lighter: #FEDCE5,
         lightest: #FEF4F7
     ),
-    positive: (
+    "positive": (
         darker: #286C50,
         dark: #308863,
         base: #35AF7C,
@@ -36,7 +36,7 @@ $palette: map-extend($palette, (
         lighter: #DAF1E7,
         lightest: #F0FAF6
     ),
-    active: (
+    "active": (
         darker: #143FA9,
         dark: #164FDA,
         base: #2F6BFC,
@@ -44,7 +44,7 @@ $palette: map-extend($palette, (
         lighter: #DDE7FD,
         lightest: #F1F5FE
     ),
-    red: (
+    "red": (
         darker: #A02146,
         dark: #D02956,
         base: #F53063,
@@ -52,7 +52,7 @@ $palette: map-extend($palette, (
         lighter: #FEDCE5,
         lightest: #FEF4F7
     ),
-    orange: (
+    "orange": (
         darker: #9D5E07,
         dark: #C97908,
         base: #FB9300,
@@ -60,7 +60,7 @@ $palette: map-extend($palette, (
         lighter: #FDEED8,
         lightest: #FEF8F1
     ),
-    yellow: (
+    "yellow": (
         darker: #886D02,
         dark: #A98A0F,
         base: #FBD333,
@@ -68,7 +68,7 @@ $palette: map-extend($palette, (
         lighter: #FDF5D3,
         lightest: #FDFAEC
     ),
-    green: (
+    "green": (
         darker: #286C50,
         dark: #308863,
         base: #35AF7C,
@@ -76,7 +76,7 @@ $palette: map-extend($palette, (
         lighter: #DAF1E7,
         lightest: #F0FAF6
     ),
-    blue: (
+    "blue": (
         darker: #143FA9,
         dark: #164FDA,
         base: #2F6BFC,
@@ -84,7 +84,7 @@ $palette: map-extend($palette, (
         lighter: #DDE7FD,
         lightest: #F1F5FE
     ),
-    indigo: (
+    "indigo": (
         darker: #1311A2,
         dark: #1C19E1,
         base: #312EFC,
@@ -92,7 +92,7 @@ $palette: map-extend($palette, (
         lighter: #E2E2FD,
         lightest: #F1F1FE
     ),
-    violet: (
+    "violet": (
         darker: #5328A9,
         dark: #5E19EB,
         base: #722EFC,

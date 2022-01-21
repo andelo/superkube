@@ -1,14 +1,14 @@
 // =PaletteDark
 $palette-dark: map-extend($palette-dark, (
-    surface: (
+    "surface": (
         base: #202124,
         100: #3F4345,
         200: #383B3D,
         300: #303236,
         400: #2A2B2E
     ),
-    black: #171718,
-    neutral: (
+    "dark": #171718,
+    "neutral": (
         darker: #2D2D30,
         dark: #434348,
         base: #85858A,
@@ -17,37 +17,37 @@ $palette-dark: map-extend($palette-dark, (
         lighter: #ECECEC,
         lightest: #F3F3F4
     ),
-    primary: (
+    "primary": (
         base: #546FFD
     ),
-    negative: (
+    "negative": (
         base: #EE4D77
     ),
-    positive: (
+    "positive": (
         base: #34CB8C
     ),
-    active: (
+    "active": (
         base: #546FFD
     ),
-    red: (
+    "red": (
         base: #EE4D77
     ),
-    orange: (
+    "orange": (
         base: #F2AD4A
     ),
-    yellow: (
+    "yellow": (
         base: #F3D55E
     ),
-    green: (
+    "green": (
         base: #34CB8C
     ),
-    blue: (
+    "blue": (
         base: #546FFD
     ),
-    indigo: (
+    "indigo": (
         base: #5250FC
     ),
-    violet: (
+    "violet": (
         base: #864FF8
     )
 ));

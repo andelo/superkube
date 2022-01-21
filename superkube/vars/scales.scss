@@ -1,6 +1,6 @@
 // =Scales
 $scales: map-extend($scales, (
-    type-scale: (
+    "type-scale": (
         80: 80px,
         64: 64px,
         60: 60px,
@@ -19,7 +19,7 @@ $scales: map-extend($scales, (
         12: 12px,
         11: 11px
     ),
-    type: (
+    "type": (
         base: (
             h1: 56px 1.15,
             h2: 28px 1.35,
@@ -93,19 +93,19 @@ $scales: map-extend($scales, (
             default: 14px
         )
     ),
-    type-sm: (
+    "type-sm": (
         heading: (
             giga: 60px 1.1,
             mega: 60px 1.1
         )
     ),
-    type-md: (
+    "type-md": (
 
     ),
-    type-lg: (
+    "type-lg": (
 
     ),
-    type-space: (
+    "type-space": (
         h1-to-tag: 5rem,
         h2-to-tag: 3rem,
         h3-to-tag: 3rem,
@@ -121,32 +121,32 @@ $scales: map-extend($scales, (
         figure-to-tag: 8rem,
         form-item-to-item: 5rem
     ),
-    button: (
+    "button": (
         small: 32px,
         base: 42px,
         large: 56px
     ),
-    input: (
+    "input": (
         small: 36px,
         base: 42px,
         large: 56px
     ),
-    breakpoint: (
+    "breakpoint": (
         lg: 1442px,
         md: 1024px,
         sm: 768px
     ),
-    sidebar: (
+    "sidebar": (
         base: 300px
     ),
-    grid: (
+    "grid": (
         gridname: grid,
         columnname: column,
         columns: 12,
         gutter: 8rem,
         gap: 6rem
     ),
-    container: (
+    "container": (
         small: 400px,
         content: 800px,
         medium: 960px,
@@ -154,27 +154,27 @@ $scales: map-extend($scales, (
         large: 1200px,
         full: 100%
     ),
-    edge: (
+    "edge": (
         base: 5rem
     ),
-    level: (
+    "level": (
         content: 100, // overlays
         page: 200, // offcanvas
         control: 300, // modals/popups
         all: 400 // messages
     ),
-    radius: (
+    "radius": (
         small: 2px,
         base: 4px,
         large: 6px,
         huge: 12px
     ),
-    border: (
+    "border": (
         1: 1px,
         2: 2px,
         4: 4px
     ),
-    icon: (
+    "icon": (
         12: 12px,
         14: 14px,
         16: 16px,
@@ -184,7 +184,7 @@ $scales: map-extend($scales, (
         48: 48px,
         64: 64px
     ),
-    width: (
+    "width": (
         20: 20%,
         25: 25%,
         30: 30%,
@@ -198,7 +198,7 @@ $scales: map-extend($scales, (
         80: 80%,
         100: 100%
     ),
-    spacing: (
+    "spacing": (
         1: 1,
         2: 2,
         3: 3,
@@ -220,7 +220,7 @@ $scales: map-extend($scales, (
         30: 30,
         24: 24
     ),
-    image: (
+    "image": (
        16: 16px,
        24: 24px,
        32: 32px,

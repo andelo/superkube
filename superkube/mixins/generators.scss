@@ -30,7 +30,7 @@
             }
             @if $color != null {
                 @each $index in $opacity-scale {
-                    --palette-#{$name}-#{$index}: #{rgba($color, $index/100)};
+                    --palette-#{$name}-#{$index}: #{rgba($color, $index/100)}; 
                 }
             }
         }
